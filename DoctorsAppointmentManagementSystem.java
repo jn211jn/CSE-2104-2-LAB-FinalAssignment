@@ -122,7 +122,7 @@ if (patient == null) {
 
     private static void viewAppointments() {
         System.out.println("\n\t\tAll Appointments:");
-        try (BufferedReader reader = new BufferedReader(new FileReader("appointments.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("Informations.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
@@ -294,7 +294,7 @@ class Appointment {
     }
 
     public void saveToFile() {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("appointments.txt", true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("Informations.txt", true))) {
             writer.write(toString());
             writer.newLine();
         } catch (IOException e) {
