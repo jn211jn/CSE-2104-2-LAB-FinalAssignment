@@ -28,7 +28,7 @@ public class DoctorsAppointmentManagementSystem {
 
     public static void main(String[] args) {
         while (true) {
-            System.out.println("\n*****-----*****Appointment Management System*****-----*****");
+            System.out.println("\n*****-----*****Doctors Appointment Management System*****-----*****");
             System.out.println("\t\t1. Patient Registration");
             System.out.println("\t\t2. Show Available Doctors");
             System.out.println("\t\t3. Book an Appointment");
